@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* Adding a border to the Title */
+h2{
+  border-bottom: 2px dotted white;
+}
+
+/* Background color, text color, and text font */
+body{
+  font-family: 'Oswald', sans-serif;
+  background-color: #CBFFA9;
+  color: #918f83;
+}
+
+/* Sizing Image */
+img{
+max-width: 35%;
+max-height: 35%
+}
+
+/*NAV STRUCTURING*/
+.active {
+  background-color: #FFD6A5;
+}
+
+li a:hover:not(.active) {
+  background-color: #080202;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF9B9B;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #918f83;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}

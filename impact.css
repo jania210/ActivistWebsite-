@@ -1,0 +1,41 @@
+/* Background color, text color, and text font */
+body{
+  background-color: #CBFFA9;
+  color: #918f83;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Adding a border to the Title */
+h1{
+    border: 5px dotted #FF9B9B;
+}
+
+/*NAV STRUCTURING*/
+.active {
+  background-color: #FFD6A5;
+}
+
+li a:hover:not(.active) {
+  background-color: #080202;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF9B9B;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #918f83;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
